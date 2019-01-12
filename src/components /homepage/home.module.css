@@ -1,3 +1,16 @@
-.color{
-    color:red!important;
+.navStyle{
+    float:right;
+    margin-right: 10%;
+    font-size:14px;
+    padding-top:30px;
 }
+.navItems{
+    color:black;
+}
+.logo{
+    position: absolute;
+    margin-left: 10%;
+    padding-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
