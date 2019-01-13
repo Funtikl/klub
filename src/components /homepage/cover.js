@@ -6,7 +6,7 @@ export default class Cover extends Component {
   render() {
     return (
       <div >
-       <img src={image}  />
+       <img src={image} className={homestyles.prallax}  />
       </div>
     )
   }

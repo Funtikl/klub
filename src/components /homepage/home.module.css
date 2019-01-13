@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Gaegu:700');
+.header{
+    z-index: 999;
+    position: relative;
+}
 .navStyle{
     float:right;
     margin-right: 10%;
@@ -5,12 +10,36 @@
     padding-top:30px;
 }
 .navItems{
-    color:black;
+    color:white;
 }
 .logo{
+    color:white;
     position: absolute;
     margin-left: 10%;
     padding-top: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    font-family: 'Gaegu', cursive;
 }
-
+.coverText{
+    color:white;
+    position: absolute;
+    margin-left: 10%;
+    margin-top:15%;
+    padding-top: 30px;
+    font-size: 4.2rem;
+    font-family: 'Gaegu', cursive;
+    display: inline-block;
+    width:500px;
+    height: 500px;
+}
+.prallax{
+    filter:brightness(.6);
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    left:0;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
