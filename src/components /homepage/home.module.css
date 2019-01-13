@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Gaegu:700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300');
 .header{
     z-index: 999;
     position: relative;
@@ -11,6 +12,7 @@
 }
 .navItems{
     color:white;
+    font-family: 'Poppins', sans-serif;
 }
 .logo{
     color:white;
@@ -39,7 +41,20 @@
     height: 120%;
     left:0;
     background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.minInfo{
+    left:0;
+    position: absolute;
+    margin-top:800px;
+    height: 270px;
+    background-color:white;
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    padding:60px;
+
 }

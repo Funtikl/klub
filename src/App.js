@@ -18,7 +18,7 @@ class App extends Component {
       <Container>
        <Header style={{zIndex:999}} />
        <Cover />
-       <MinInfo />
+      <MinInfo />
        </Container>
       </div>
     );
