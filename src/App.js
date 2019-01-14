@@ -6,7 +6,7 @@ import {Container, Col} from 'reactstrap';
 import Header from './components /homepage/header';
 import Cover from './components /homepage/cover';
 import MinInfo from './components /homepage/mininfo';
-
+import Featured from './components /homepage/featured';
 //modules
 import cssStyles from './First.module.css';
 
@@ -16,16 +16,17 @@ class App extends Component {
     return (
       <div className="App">
       <Container>
-       <Header style={{zIndex:999}} />
+       <Header  />
        <Cover />
       <MinInfo />
+      <Featured />
        </Container>
       </div>
     );
   }
 }
 Container.propTypes = {
-  fluid:  true
+  fluid: true
   // applies .container-fluid class
 }
 

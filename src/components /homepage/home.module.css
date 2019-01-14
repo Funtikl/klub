@@ -34,16 +34,17 @@
     width:500px;
     height: 500px;
 }
-.prallax{
+.parallax{
     filter:brightness(.6);
     position: absolute;
     width: 100%;
     height: 120%;
     left:0;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding:0;
+    top:0;
+    margin-left:0;
+    margin-top:0;
+    border:0;
 }
 
 .minInfo{
@@ -57,4 +58,38 @@
     font-size: 1rem;
     padding:60px;
 
+}
+
+.featured{
+    height:605px;
+    width: 100%;
+    background-color:#32A954;
+    position: absolute;
+    margin-top:1000px;
+    left:0;
+    background-image: url('./images/bg_2.jpg');
+    background-blend-mode:soft-light;
+}
+
+.featuredImage{
+    height: 500px;
+    width:730px;
+    border: 10px solid white;
+    margin-top:40px;
+    margin-left:500px;
+
+}
+.featuredText{
+    position: absolute;
+    margin-top:-400px;
+    margin-left:35px;
+    width: 340px;
+    text-align: left;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+
+}
+.featuredH4{
+    color:white;
+    font-family: 'Poppins', sans-serif;
 }
