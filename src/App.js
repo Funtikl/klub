@@ -1,26 +1,28 @@
-import React, { Component } from 'react';
-import {Container, Col} from 'reactstrap';
-
+import React, { Component } from "react";
+import { Container, Col } from "reactstrap";
 
 //import components
-import Header from './components /homepage/header';
-import Cover from './components /homepage/cover';
-import MinInfo from './components /homepage/mininfo';
-import Featured from './components /homepage/featured';
+import Header from "./components /homepage/header";
+import Cover from "./components /homepage/cover";
+import MinInfo from "./components /homepage/mininfo";
+import Featured from "./components /homepage/featured";
+import Top from "./components /homepage/top";
+import LastDonat from "./components /homepage/lastdonates";
 //modules
-import cssStyles from './First.module.css';
-
+import cssStyles from "./First.module.css";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <Container>
-       <Header  />
-       <Cover />
-      <MinInfo />
-      <Featured />
-       </Container>
+        <Container>
+          <Header />
+          <Cover />
+          <MinInfo />
+          <Featured />
+          <Top />
+          <LastDonat />
+        </Container>
       </div>
     );
   }
@@ -28,6 +30,6 @@ class App extends Component {
 Container.propTypes = {
   fluid: true
   // applies .container-fluid class
-}
+};
 
 export default App;

@@ -6,7 +6,7 @@
 }
 .navStyle{
     float:right;
-    margin-right: 10%;
+ 
     font-size:14px;
     padding-top:30px;
 }
@@ -51,6 +51,7 @@
     left:0;
     position: absolute;
     margin-top:800px;
+    margin-right: 0;
     height: 270px;
     background-color:white;
     color:black;
@@ -89,7 +90,38 @@
     font-family: 'Poppins', sans-serif;
 
 }
-.featuredH4{
-    color:white;
+.featuredButton{
+    margin-left:50px;
+    background-color: #79ccab!important;
+    border:2px solid #79ccab;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    padding-left:30px!important;
+    padding-right:30px!important;
+    padding-top:15px!important;
+    padding-bottom:15px!important;
+    font-size:14px!important;
     font-family: 'Poppins', sans-serif;
+}
+.featuredButton:hover{
+    border:2px solid white!important;
+    background-blend-mode: color!important;
+}
+
+.topH2{
+    padding: 40px;
+}
+.topCardsDiv{
+    position: absolute;
+    margin-top:1700px;
+    
+}
+
+.lastDonatH2{
+    padding: 40px;
+}
+.lastDonatDiv{
+    position: absolute;
+    margin-top:2200px;
+    
 }

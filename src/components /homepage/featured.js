@@ -21,7 +21,7 @@ export default class Featured extends Component {
         <p> $8,100 raised of $30,000 </p>
 
     </div>
-        <Button>Donate Now</Button>
+        <Button className={homestyles.featuredButton}>Donate Now</Button>
 
       </div>
     )
