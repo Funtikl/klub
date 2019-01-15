@@ -8,6 +8,8 @@ import MinInfo from "./components /homepage/mininfo";
 import Featured from "./components /homepage/featured";
 import Top from "./components /homepage/top";
 import LastDonat from "./components /homepage/lastdonates";
+import Success from "./components /homepage/success";
+import LastNews from "./components /homepage/lastnews";
 //modules
 import cssStyles from "./First.module.css";
 
@@ -22,6 +24,8 @@ class App extends Component {
           <Featured />
           <Top />
           <LastDonat />
+          <Success />
+          <LastNews />
         </Container>
       </div>
     );
