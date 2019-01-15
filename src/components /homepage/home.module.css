@@ -114,7 +114,10 @@
 .topCardsDiv{
     position: absolute;
     margin-top:1700px;
-    
+    width: 100%;
+}
+.topCol{
+    width:500px!important;
 }
 
 .lastDonatH2{

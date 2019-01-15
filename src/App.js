@@ -16,7 +16,7 @@ import cssStyles from "./First.module.css";
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className={cssStyles.App}>
         <Container>
           <Header />
           <Cover />
