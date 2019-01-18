@@ -1,33 +1,39 @@
 import React, { Component } from "react";
 import { Container, Col } from "reactstrap";
+//import react-router
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+//import fontawesome
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faIgloo } from '@fortawesome/free-solid-svg-icons'
 
-//import components
+//import components homepage
 import Header from "./components /homepage/header";
 import Cover from "./components /homepage/cover";
-import MinInfo from "./components /homepage/mininfo";
-import Featured from "./components /homepage/featured";
-import Top from "./components /homepage/top";
-import LastDonat from "./components /homepage/lastdonates";
-import Success from "./components /homepage/success";
-import LastNews from "./components /homepage/lastnews";
+import Footer from "./components /footer";
+import Home from "./components /homepage/Home";
+//gallery
+import Gallery from "./components /gallery";
+
 //modules
 import cssStyles from "./First.module.css";
 
 class App extends Component {
   render() {
     return (
+      <Router>
       <div className={cssStyles.App}>
         <Container>
-          <Header />
+          <div>
+            <Header />
           <Cover />
-          <MinInfo />
-          <Featured />
-          <Top />
-          <LastDonat />
-          <Success />
-          <LastNews />
+            <Route exact path="/" component={Home} />
+           <Route path="/gallery" component={Gallery} />
+          </div>
+     
         </Container>
       </div>
+      </Router>
     );
   }
 }

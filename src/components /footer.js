@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import {Row, Col, Media, Button} from 'reactstrap';
+import homestyles from './homepage/home.module.css';
 export default class Footer extends Component {
   render() {
     return (
-      <div>
+      <div className={homestyles.footer}>
         <Row>
         <Col>
             <h1>ABOUT US</h1>
