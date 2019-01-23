@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Gaegu:700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:300');
-.header{
+.header1{
     z-index: 999;
     position: relative;
 }
+.header2{
+    z-index: 999;
+    position: fixed;
+}
 .navStyle{
     float:right;
- 
     font-size:14px;
     padding-top:30px;
 }
@@ -52,15 +55,27 @@
     position: absolute;
     margin-top:800px;
     margin-right: 0;
-    height: 270px;
+    height: 340px;
     background-color:white;
     color:black;
     font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-    padding:60px;
-
+    
 }
-
+.miniCol{
+    margin-left:80px;
+    padding:15px;
+}
+.minih3{
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding:20px;
+}
+.miniP{
+    text-justify: newspaper;
+    color:#777;
+}
 .featured{
     height:605px;
     width: 100%;
@@ -117,14 +132,26 @@
 .topCardsDiv{
     position: absolute;
     margin-top:1700px;
-    width: 100%;
+    width: 90%;
+    left:40px;
+}
+.cardTitle{
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin-top:20px;
+
 }
 .topCol{
     width:500px!important;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
 }
 
 .lastDonatH2{
     padding: 40px;
+    font-weight:300;
+    font-family: 'Poppins', sans-serif;
 }
 .lastDonatDiv{
     position: absolute;
@@ -133,27 +160,33 @@
     padding-top:1.5rem !important;
     -webkit-box-sizing:border-box;
     box-sizing: border-box;
+    width:80%;
+
 }
 .lastDonateCard{
     height: 200px!important;
     margin: 20px;
+    align-items: center;
+}
+.lastDonatImg{
+    box-sizing: border-box;
+    width:100px!important;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-left:40px;
 }
 .lastDonateButton1{
     display:inline-block;
     width:130px;
+    height: 40px;
     left:100px;
     color:black;
     background-color: #F2F2F2;
+    align-self: center;
+    text-align: center;
+    margin-top: 20px;
 }
-.lastDonateButton2{
-    display: inline-block;
-    position: absolute;
-    top:432px;
-    left:180px;
-    color:white;
-    width:130px;
-    background-color:#00A752;
-}
+
 .success{
     height:520px;
     width: 100%;
@@ -207,5 +240,4 @@
 .lastNewsDiv{
     position: absolute;
     margin-top:3300px;
-    
 }
