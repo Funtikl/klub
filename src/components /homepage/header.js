@@ -31,22 +31,22 @@ export default class Header extends Component {
       <h2 className={homestyles.logo}>Hklub</h2>
       <Nav className={homestyles.navStyle}>
         <NavItem >
-          <NavLink className={homestyles.navItems} href="#">Home</NavLink>
+          <NavLink className={homestyles.navItems} href="/">Home</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink className={homestyles.navItems} href="#">Donate</NavLink>
+          <NavLink className={homestyles.navItems} href="/donates">Donate</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink className={homestyles.navItems} href="#">Gallery</NavLink>
+          <NavLink className={homestyles.navItems} href="/gallery">Gallery</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink className={homestyles.navItems}  href="#">Blog</NavLink>
+          <NavLink className={homestyles.navItems}  href="/blog">Blog</NavLink>
         </NavItem>
         <NavItem>
-        <NavLink className={homestyles.navItems}  href="#">About</NavLink>
+        <NavLink className={homestyles.navItems}  href="/about">About</NavLink>
       </NavItem>
       <NavItem>
-      <NavLink className={homestyles.navItems}  href="#">Contact</NavLink>
+      <NavLink className={homestyles.navItems}  href="/contact">Contact</NavLink>
     </NavItem>
       </Nav>
       <h2 className={homestyles.coverText}>

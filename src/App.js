@@ -13,6 +13,7 @@ import Home from "./components /homepage/Home";
 //other components
 import Gallery from "./components /gallery";
 import Donates from "./components /donates/donates";
+import Contact from "./components /contact/form";
 //modules
 import cssStyles from "./First.module.css";
 
@@ -28,6 +29,7 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route path="/gallery" component={Gallery} />
               <Route path="/donates" component={Donates} />
+              <Route path="/contact" component={Contact}/>
             </div>
           </Container>
         </div>
