@@ -10,9 +10,9 @@ import Header from "./components /homepage/header";
 import Cover from "./components /homepage/cover";
 import Footer from "./components /footer";
 import Home from "./components /homepage/Home";
-//gallery
+//other components
 import Gallery from "./components /gallery";
-
+import Donates from "./components /donates/donates";
 //modules
 import cssStyles from "./First.module.css";
 
@@ -27,6 +27,7 @@ class App extends Component {
               <Cover />
               <Route exact path="/" component={Home} />
               <Route path="/gallery" component={Gallery} />
+              <Route path="/donates" component={Donates} />
             </div>
           </Container>
         </div>
