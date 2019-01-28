@@ -1,22 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Gaegu:700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:300');
-.header1{
+.header{
     z-index: 999;
     position: relative;
+    
 }
 .header2{
     z-index: 999;
     position: fixed;
+    background-color: #fff;
+    width:100%;
+    float:left;
+    left:0;
+    margin-left: 0px;
+    transition-duration: .6s;
+    transition-timing-function: ease-in;
 }
 .navStyle{
     float:right;
     font-size:14px;
     padding-top:30px;
+    
 }
+
 .navItems{
     color:white;
     font-family: 'Poppins', sans-serif;
 }
+.navItems2{
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    transition-duration: .6s;
+    transition-timing-function: ease-in;
+    padding-bottom:15px;
+}
+
 .logo{
     color:white;
     position: absolute;
@@ -24,6 +42,16 @@
     padding-top: 30px;
     font-size: 3rem;
     font-family: 'Gaegu', cursive;
+}
+.logo2{
+    color:black;
+    position: absolute;
+    margin-left: 10%;
+    padding-top: 10px;
+    font-size: 3rem;
+    font-family: 'Gaegu', cursive;
+    transition-duration: .4s;
+    transition-timing-function: ease-in;
 }
 .coverText{
     color:white;
@@ -36,6 +64,9 @@
     display: inline-block;
     width:500px;
     height: 500px;
+}
+.coverText2{
+    display:none;
 }
 .parallax{
     filter:brightness(.6);

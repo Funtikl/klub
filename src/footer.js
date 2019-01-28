@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Row, Col, Media, Button} from 'reactstrap';
-import homestyles from './homepage/home.module.css';
+import homestyles from './First.module.css';
 export default class Footer extends Component {
   render() {
     return (

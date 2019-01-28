@@ -8,14 +8,16 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 //import components homepage
 import Header from "./components /homepage/header";
 import Cover from "./components /homepage/cover";
-import Footer from "./components /footer";
+import Footer from "./footer";
 import Home from "./components /homepage/Home";
 //other components
 import Gallery from "./components /gallery";
 import Donates from "./components /donates/donates";
 import Contact from "./components /contact/form";
-//modules
 import cssStyles from "./First.module.css";
+
+
+
 
 class App extends Component {
   render() {

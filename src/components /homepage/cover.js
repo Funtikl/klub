@@ -4,6 +4,7 @@ import homestyles from './home.module.css';
 import image from './images/bg_1.jpg';
 
 export default class Cover extends Component {
+  
   render() {
     return (
   <div>

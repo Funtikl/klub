@@ -3,22 +3,14 @@
 .gallery{
     position: absolute;
     margin-top:900px;
-    margin-right: 10px;
+    margin-right: 140px;
 }
 
 .galleryItem:hover{
     filter: blur(2px);
     content: icon;
 }
-.footerDiv{
-    position: relative;
-    height: 400px;
-}
-.footer{
-    left:0;
 
-    bottom:0;
-}
 .donatesH2{
     padding: 40px;
     font-weight:300;
