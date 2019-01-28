@@ -16,7 +16,7 @@ export default class LastNews extends Component {
       <div className={homestyles.lastNewsDiv}>
         <h2 className={homestyles.lastNewsH2}>Last News</h2>
         <Row>
-          <Col sm="4">
+          <Col sm="3">
             <Card body>
               <CardTitle>Special Title Treatment</CardTitle>
               <CardImg src={image} />
@@ -27,7 +27,7 @@ export default class LastNews extends Component {
               <Button>Go somewhere</Button>
             </Card>
           </Col>
-          <Col sm="4">
+          <Col sm="3">
             <Card body>
               <CardTitle>Special Title Treatment</CardTitle>
               <CardImg src={image}  />
@@ -38,7 +38,7 @@ export default class LastNews extends Component {
               <Button>Go somewhere</Button>
             </Card>
           </Col>
-          <Col sm="4">
+          <Col sm="3">
           <Card body>
             <CardTitle>Special Title Treatment</CardTitle>
             <CardImg src={image}  />

@@ -14,6 +14,7 @@ import Home from "./components /homepage/Home";
 import Gallery from "./components /gallery";
 import Donates from "./components /donates/donates";
 import Contact from "./components /contact/form";
+
 import cssStyles from "./First.module.css";
 
 
@@ -33,6 +34,7 @@ class App extends Component {
               <Route path="/donates" component={Donates} />
               <Route path="/contact" component={Contact}/>
             </div>
+
           </Container>
         </div>
       </Router>

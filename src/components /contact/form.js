@@ -1,9 +1,11 @@
 import React from 'react';
+import Mapimg from './map';
 import { Col, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 
 export default class Contact extends React.Component {
   render() {
     return (
+      <div>
       <Form style={{marginTop:'1000px', position:'absolute'}}>
         <FormGroup row>
           <Label for="exampleEmail" sm={2}>Email</Label>
@@ -17,7 +19,9 @@ export default class Contact extends React.Component {
             <Input type="textarea" name="text" id="exampleText" />
           </Col>
         </FormGroup>
+        <Button>Submit</Button>
       </Form>
+      </div>
     );
   }
 }

@@ -274,4 +274,6 @@
 .lastNewsDiv{
     position: absolute;
     margin-top:3300px;
+    justify-items: baseline;
+    margin-left:120px;
 }
