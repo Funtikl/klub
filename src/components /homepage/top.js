@@ -22,7 +22,7 @@ export default class Top extends Component {
       <div className={homestyles.topCardsDiv}>
         <h2 className={homestyles.topH2}>Top Donations</h2>
         <Row>
-          <OwlCarousel autoplay={true}  className="owl-theme"  loop items={4} margin={10}>
+          <OwlCarousel autoplay={true} nav={true} dots={true}  className="owl-theme"  loop items={4} margin={10}>
             <Col className={homestyles.topCol} class='item' sm="12">
               <Card style={{borderColor:'white'}} body>
               <CardImg src={image1} />

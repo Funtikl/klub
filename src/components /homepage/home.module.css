@@ -15,12 +15,13 @@
     margin-left: 0px;
     transition-duration: .6s;
     transition-timing-function: ease-in;
+
 }
 .navStyle{
     float:right;
     font-size:14px;
     padding-top:30px;
-    
+       
 }
 
 .navItems{
@@ -33,6 +34,17 @@
     transition-duration: .6s;
     transition-timing-function: ease-in;
     padding-bottom:15px;
+    margin-right: 20px; 
+}
+.navItems:hover{
+
+        color:#9FDAC2;
+        transition-duration: 0ms;
+
+}
+.navItems2:hover{
+    color:#9FDAC2;
+    transition-duration: 0ms;
 }
 
 .logo{
@@ -107,6 +119,29 @@
 .miniP{
     text-justify: newspaper;
     color:#777;
+}
+.medicalIcon{
+    position: absolute;
+    margin-left: -35px;
+    color:#9FDAC2;
+    font-size: 1.5rem;
+
+
+}
+.donateIcon{
+    position: absolute;
+    margin-left: -35px;
+    color:#9FDAC2;
+    font-size: 1.5rem;
+
+
+}
+.carryIcon{
+    position: absolute;
+    margin-left: -35px;
+    color:#9FDAC2;
+    font-size: 1.5rem;
+
 }
 .featured{
     height:605px;
@@ -207,6 +242,7 @@
     height: 100px;
     margin-bottom: 20px;
     margin-left:40px;
+    border-radius: 30px!important;
 }
 .lastDonateButton1{
     display:inline-block;
@@ -270,10 +306,19 @@
 
 .lastNewsH2{
     padding: 40px;
+    font-family: 'Poppins', sans-serif;
+
 }
 .lastNewsDiv{
     position: absolute;
     margin-top:3300px;
     justify-items: baseline;
-    margin-left:120px;
+    margin-left:150px;
+
+}
+.newsButton{
+    background-color: #fff!important;
+    color:#32A954!important;
+    border:0px!important;
+    left: -20px!important;
 }
