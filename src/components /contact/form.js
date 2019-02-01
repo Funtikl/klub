@@ -21,6 +21,9 @@ export default class Contact extends React.Component {
         </FormGroup>
         <Button>Submit</Button>
       </Form>
+
+      <Mapimg style={{position:'absolute', marginTop:'900px', float:'right'}} />
+
       </div>
     );
   }

@@ -1,10 +1,10 @@
 import React from 'react'
-import {Media} from 'reactstrap'
+import image from './map.jpg';
 
 export default function Mapimg() {
   return (
-    <div>
-      <Media src={'/Users/fuad/Code/hklub/klub/src/components /contact/map.png'}/>
+    <div style={{position:'absolute', marginTop:'900px', marginLeft:'40%'}}>
+    <img src={image} />
     </div>
   )
 }

@@ -37,6 +37,7 @@
     height: 100px;
     margin-bottom: 20px;
     margin-left:40px;
+    border-radius: 30px!important;
 }
 .donatesButton1{
     display:inline-block;

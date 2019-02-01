@@ -7,7 +7,8 @@ import {
     CardText,
     Row,
     Col,
-    CardLink
+    CardLink,
+    Progress
   } from "reactstrap";
   import homestyles from '../cssComponents.module.css';
   
@@ -23,40 +24,39 @@ export default class Donates extends Component {
         <div className={homestyles.donatesDiv}>
         <h2 className={homestyles.donatesH2}>Last Donations</h2>
         <Row>
-          <Col sm="3">
-            <Card className={homestyles.donatesCard} style={{border:'0px',backgroundColor:'#FAFAFA' }} body>
-              <CardImg className={homestyles.donatesImg} src={image1} />
-              <h2 style={{fontFamily:'Poppins',fontWeight:'300',fontSize:'20px'}} className={homestyles.donatesCardTitle}>Special Title Treatment</h2>
-             
-              <CardLink className={homestyles.donatesButton1} href="#">Card Link</CardLink>
-            </Card>
-          </Col>
-          <Col sm="3">
-            <Card className={homestyles.donatesCard} style={{border:'0px' ,backgroundColor:'#FAFAFA'}} body>
-              <CardImg className={homestyles.donatesImg} src={image2}/>
-              <h2 style={{fontFamily:'Poppins',fontWeight:'300',fontSize:'20px'}}  className={homestyles.donatesCardTitle}>Special Title Treatment</h2>
-              
-              <CardLink className={homestyles.donatesButton1} href="#">Card Link</CardLink>
-            </Card>
-          </Col>
-          <Col sm="3">
-            <Card className={homestyles.donatesCard} style={{border:'0px' ,backgroundColor:'#FAFAFA'}} body>
-              <CardImg className={homestyles.donatesImg} src={image2}/>
-              <h2 style={{fontFamily:'Poppins',fontWeight:'300',fontSize:'20px'}}  className={homestyles.donatesCardTitle}>Special Title Treatment</h2>
-              
-              <CardLink className={homestyles.donatesButton1} href="#">Card Link</CardLink>
-            </Card>
-          </Col>
-          <Col sm="3">
-            <Card className={homestyles.donatesCard} style={{border:'0px' ,backgroundColor:'#FAFAFA'}} body>
-              <CardImg className={homestyles.donatesImg} src={image2}/>
-              <h2 style={{fontFamily:'Poppins',fontWeight:'300',fontSize:'20px'}}  className={homestyles.donatesCardTitle}>Special Title Treatment</h2>
-              
-              <CardLink className={homestyles.donatesButton1} href="#">Card Link</CardLink>
-            </Card>
-          </Col>
-        </Row>
-
+        <Col sm="3">
+          <Card className={homestyles.donatesCard} style={{border:'0px' ,backgroundColor:'#FAFAFA'}} body>
+            <CardImg className={homestyles.donatesImg} src={image2}/>
+            <h2 style={{fontFamily:'Poppins',fontWeight:'300',fontSize:'16px'}}  className={homestyles.lastDonatCardTitle}>Payament about 50$</h2>
+            <Progress value="40" />
+            <p style={{marginTop:"15px",fontFamily:'Poppins'}}>Thank You!</p>
+          </Card>
+        </Col>
+        <Col sm="3">
+          <Card className={homestyles.donatesCard} style={{border:'0px' ,backgroundColor:'#FAFAFA'}} body>
+            <CardImg className={homestyles.donatesImg} src={image2}/>
+            <h2 style={{fontFamily:'Poppins',fontWeight:'300',fontSize:'16px'}}  className={homestyles.lastDonatCardTitle}>Payament about 50$</h2>
+            <Progress value="40" />
+            <p style={{marginTop:"15px",fontFamily:'Poppins'}}>Thank You!</p>
+          </Card>
+        </Col>
+        <Col sm="3">
+          <Card className={homestyles.donatesCard} style={{border:'0px' ,backgroundColor:'#FAFAFA'}} body>
+            <CardImg className={homestyles.donatesImg} src={image2}/>
+            <h2 style={{fontFamily:'Poppins',fontWeight:'300',fontSize:'16px'}}  className={homestyles.lastDonatCardTitle}>Payament about 50$</h2>
+            <Progress value="57" />
+            <p style={{marginTop:"15px",fontFamily:'Poppins'}}>Thank You!</p>
+          </Card>
+        </Col>
+        <Col sm="3">
+          <Card className={homestyles.donatesCard} style={{border:'0px' ,backgroundColor:'#FAFAFA'}} body>
+            <CardImg className={homestyles.donatesImg} src={image2}/>
+            <h2 style={{fontFamily:'Poppins',fontWeight:'300',fontSize:'16px'}}  className={homestyles.lastDonatCardTitle}>Payament about 50$</h2>
+            <Progress  value="25" />
+              <p style={{marginTop:"15px",fontFamily:'Poppins'}}>Thank You!</p>
+          </Card>
+        </Col>
+      </Row>
         <Testimate />
       </div>
     )
